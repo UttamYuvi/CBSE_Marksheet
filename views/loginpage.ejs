@@ -1,0 +1,26 @@
+<html>
+    <body background="/images/background.jpg">
+    <center>
+        <img src="/images/header.png" alt="">
+    <br><br>
+<form action="/login/checklogin" method="post">
+    
+    <Table border="1" cellpadding="5" cellspacing="0" color="white">
+        <caption><h3>Login Page</h3></caption>
+        <tr>
+            <td><b><i>Email:</i></b></td>
+            <td><input type="email" name="email" placeholder="@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><b><i>Password:</i></b></td>
+            <td><input type="password" name="password"></td>
+        </tr>
+    </Table><br>
+
+    <input type="submit" value="Sign in">
+    <input type="reset">
+    <h3><b><font color="red"><%= msg %></b></font></h3>
+</form>
+</center>
+</body>
+</html>
